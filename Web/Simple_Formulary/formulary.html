@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="formulario.css">
+</head>
+
+<body>
+
+    <form action="#">
+        <fieldset>
+            <legend>Formulário</legend>
+
+            <label for="name">Nome: </label>
+            <input type="text" name="nome" placeholder="Nome" maxlength="60" required>
+
+            <label for="endereço">Endereço: </label>
+            <input type="text" name="endereço" placeholder="Endereço" maxlength="50" required>
+
+            <label for="nascimento">Data de nascimento:</label>
+            <input type="date" name="dataNascimento" required>
+
+
+            <label for="sobre">Sobre:</label>
+            <textarea name="sobre" id="sobre" placeholder="Sobre" maxlength="500" required></textarea>
+
+            <label for="sexo">Sexo:</label>
+            <select name="sexo" id="sexo" required>
+                <option value="#">Selecione</option>
+                <option value="masculino">Masculino</option>
+                <option value="feminino">Feminino</option>
+                <option value="outro">Outro</option>
+            </select>
+
+
+            <button type="submit">Enviar</button>
+            <button type="reset">Resetar</button>
+
+
+        </fieldset>
+
+
+
+    </form>
+
+</body>
+
+</html>
