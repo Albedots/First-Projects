@@ -1,9 +1,9 @@
-#include <stdio.h>
-#include <stdlib.h>
-
+#include <stdio.h>//biblioteca para usar os comandos de entrada e saída.
+/* este programa é um contador automatico, ou seja, o usuario seleciona o primeiro valor
+e em seguida seleciona até qual valor o contador ira */
 int main()
 {
-
+  //declaração do valor inicial e final
   int n_i, n_f;
 
   printf("Contador virtual aqui!!! \n");

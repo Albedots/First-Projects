@@ -1,17 +1,16 @@
-#include <stdio.h>
-#include <conio.h>
-#include <stdlib.h>
-
+#include <stdio.h>//esse é o comando da biblioteca que permite a entrada e saida de dados
+#include <conio.h>//biblioteca conio, para funcionar o getch.
+/*programa para criar uma tabela de produtos*/
 int main()
-{
+{	//declaração das variaveis
 	int x, cod, y;
 	char nome[50];
 	float preco;
 
 	printf("Quantos produtos vc deseja cadastrar?\n");
-	scanf("%i", &y);
+	scanf("%i", &y); //comando que ira receber quantos produtos serão necessarios
 
-	for (x = 1; x <= y; x += 1)
+	for (x = 1; x <= y; x += 1)//estrutura que vai fazer o "cadastro" dos produtos e em seguida retornara um output dos dados
 	{
 		printf(" Entre com o codigo do produto: ");
 		scanf("%i", &cod);
